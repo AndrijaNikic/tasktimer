@@ -1,0 +1,13 @@
+package com.example.tasktimer
+
+import androidx.f
+
+fun FragmentActivity.showConfirmationDialog(id: Int,
+                                            message: String,
+                                            positiveCaption: Int = R.string.ok,
+                                            negativeCaption: Int = R.string.cancel)
+
+val args = Bundle().apply {
+    putInt(DIALOG_ID, id)
+
+}
